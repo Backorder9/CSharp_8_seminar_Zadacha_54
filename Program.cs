@@ -41,7 +41,7 @@ int[,] SortArrayLinesByDescend(int[,] InputArray)
         {
             for (int z = 0; z < y - 1; z++)
             {
-                if (InputArray[i, z] < InputArray[i, z + 1]) //для изменения сортировки поменять знак < на противоположный
+                if (InputArray[i, z] < InputArray[i, z + 1])
                 {
                     int temp = 0;
                     temp = InputArray[i, z];
